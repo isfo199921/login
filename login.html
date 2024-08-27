@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3 class="logo-txt">KOS</h3>
+        <p class="logo-description">We sell everything.</p>
+    </header>
+    <div class="container">
+        <form method="post" action="login.php">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="username" autocomplete="username" required>
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="password" autocomplete="current-password" required>
+            </div>
+
+            <button type="submit" class="login-btn">Log in</button>
+            <p class="notice">If you haven't signed up, we'll automatically create a new account for you.</p>
+        </form>
+    </div>
+
+</body>
+</html>
